@@ -35,7 +35,7 @@ Note: If you sign in with facebook, this app will not post anything to your face
  * After upload display the gross revenue
  * [BONUS] Handle authentication
  * [BONUS] Handle authentication via OpenID. Actually took this one step further and setup facebook authentication, because I noticed that is what LivingSocial actually does.
- * Use bootstrap to make the app aesthetically pleasing. This wasn't a goal but was very easy.
+ * I used bootstrap to make the app aesthetically pleasing. This wasn't a goal but was very easy.
 
 ## Tests
 Full suite of tests can be run:
