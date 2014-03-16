@@ -47,6 +47,6 @@ bundle exec rspec
 For ease of setup this example app uses sqlite. This is not recommended for production use.
 To handle authentication I used devise. To make handling file uploads easy I used the paperclip gem.
 
-Thank you for giving me an opportunity to complete this fun little challenge.
+Thank you for giving me an opportunity to complete this fun little challenge!
 
 Any questions or comments please email Michael Irey at michael.irey@gmail.com
