@@ -27,8 +27,8 @@ password: password123
 Note: If you sign in with facebook, this app will not post anything to your facebook account.
 
 ## Application Goals
-[checkmark] Accepts a tab delimited file (from a form) with the following columns: purchaser name, item description, item price, purchase count, merchant address, and merchant name
-[checkmark] Parses the uploaded file
+ * Accepts a tab delimited file (from a form) with the following columns: purchaser name, item description, item price, purchase count, merchant address, and merchant name
+ * Parses the uploaded file
 
 ## Tests
 ```
