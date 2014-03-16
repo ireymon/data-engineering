@@ -8,7 +8,7 @@ This is Michael Irey's solution to the engineering challenge. Please see the ins
 3. Facebook account (optional)
 
 ## Setup / Installation
-1. Clone this repositoy
+1. Clone this repository
 ```
 git clone git@github.com:ireymon/data-engineering.git
 ```
@@ -44,7 +44,9 @@ bundle exec rspec
 ```
 
 ## Notes
-For ease of setup this example app uses sqlite. This is not recommened for production use.
-To handle authentication I used devise. To make handling fileuploads easy I used the paperclip gem.
+For ease of setup this example app uses sqlite. This is not recommended for production use.
+To handle authentication I used devise. To make handling file uploads easy I used the paperclip gem.
+
+Thank you for giving me an opportunity to complete this fun little challenge.
 
 Any questions or comments please email Michael Irey at michael.irey@gmail.com
