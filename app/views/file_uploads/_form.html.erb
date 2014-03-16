@@ -1,0 +1,13 @@
+<%= form_for @file_upload, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :upload_orders, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.file_field :upload_orders %>
+    </div>
+  </div>
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                file_uploads_path, :class => 'btn' %>
+  </div>
+<% end %>
