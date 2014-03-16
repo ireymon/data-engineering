@@ -1,4 +1,4 @@
-# Challenge for Software Engineer - Big Data
+# Challenge for Software Engineer
 
 This is Michael Irey's solution to the engineering challenge. Please see the instructions below.
 
@@ -13,10 +13,10 @@ This is Michael Irey's solution to the engineering challenge. Please see the ins
 git clone git@github.com:ireymon/data-engineering.git
 ```
 2. Change directories into the project.
-3. Run `./setup.sh`. This will do the following
+3. Run `./bin/setup.sh`. This will do the following
  - bundle
  - bundle exec rake db:setup
- - bundle rake db:create db:migrate RAILS_ENV=test
+ - bundle exec rake db:create db:migrate RAILS_ENV=test
  - bundle exec rails s
 
 4. Open your browser to: http://0.0.0.0:3000/
@@ -45,6 +45,6 @@ bundle exec rspec
 
 ## Notes
 For ease of setup this example app uses sqlite. This is not recommened for production use.
-To handle authentication I used devise. To make handling fileuploads easy 
+To handle authentication I used devise. To make handling fileuploads easy I used the paperclip gem.
 
 Any questions or comments please email Michael Irey at michael.irey@gmail.com
